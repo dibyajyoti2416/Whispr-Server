@@ -1,0 +1,30 @@
+{
+  "name": "whispr-server",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/subhrankur/Whispr-Server#readme",
+  "bugs": {
+    "url": "https://github.com/subhrankur/Whispr-Server/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subhrankur/Whispr-Server.git"
+  },
+  "license": "ISC",
+  "author": "subhrankur",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc -b && node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.3",
+    "prettier": "^3.6.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  }
+}
