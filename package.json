@@ -19,12 +19,16 @@
     "dev": "tsc -b && node dist/index.js"
   },
   "devDependencies": {
-    "@types/node": "^24.0.3",
-    "prettier": "^3.6.0",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.13",
+    "@types/nodemailer": "^6.4.17",
+    "prettier": "^3.6.2",
     "typescript": "^5.8.3"
   },
   "dependencies": {
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0"
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.3",
+    "nodemailer": "^7.0.5"
   }
 }
